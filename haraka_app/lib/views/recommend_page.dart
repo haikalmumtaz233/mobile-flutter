@@ -22,8 +22,6 @@ class _RecommendPageState extends State<RecommendPage> {
       'link': 'https://flutter.dev/',
       'image':
           'https://static-00.iconduck.com/assets.00/flutter-icon-1651x2048-ojswpayr.png',
-      'description':
-          'Google\'s UI toolkit for building natively compiled applications for mobile, web, and desktop.',
     },
     {
       'id': 2,
@@ -31,8 +29,6 @@ class _RecommendPageState extends State<RecommendPage> {
       'link': 'https://dart.dev/',
       'image':
           'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Dart_programming_language_logo.svg/2560px-Dart_programming_language_logo.svg.png',
-      'description':
-          'Dart is a general-purpose, object-oriented programming language used to develop web, mobile, server, and desktop applications.'
     },
     {
       'id': 3,
@@ -40,8 +36,6 @@ class _RecommendPageState extends State<RecommendPage> {
       'link': 'https://react.dev/',
       'image':
           'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png',
-      'description':
-          'React is a JavaScript library for building user interfaces. It lets you create reusable components that encapsulate data and logic.'
     },
     {
       'id': 4,
@@ -49,8 +43,6 @@ class _RecommendPageState extends State<RecommendPage> {
       'link': 'https://tailwindcss.com/',
       'image':
           'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png',
-      'description':
-          'Tailwind CSS is a utility-first CSS framework for rapidly building modern websites.'
     },
     {
       'id': 5,
@@ -58,8 +50,6 @@ class _RecommendPageState extends State<RecommendPage> {
       'link': 'https://www.python.org/',
       'image':
           'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png',
-      'description':
-          'Python is a general-purpose, high-level programming language known for its readability and ease of use.'
     },
     {
       'id': 6,
@@ -67,8 +57,6 @@ class _RecommendPageState extends State<RecommendPage> {
       'link': 'https://www.tensorflow.org/',
       'image':
           'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1200px-Tensorflow_logo.svg.png',
-      'description':
-          'TensorFlow is an open-source software library for numerical computation using data flow graphs.'
     },
     {
       'id': 7,
@@ -76,8 +64,6 @@ class _RecommendPageState extends State<RecommendPage> {
       'link': 'https://www.arduino.cc/',
       'image':
           'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/2560px-Arduino_Logo.svg.png',
-      'description':
-          'Arduino is an open-source electronics platform based on easy-to-use hardware and software.'
     },
     {
       'id': 8,
@@ -85,8 +71,6 @@ class _RecommendPageState extends State<RecommendPage> {
       'link': 'https://cplusplus.com/',
       'image':
           'https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png',
-      'description':
-          'C++ is a general-purpose, imperative programming language known for its performance and efficiency.'
     },
   ];
 
@@ -164,8 +148,6 @@ class _RecommendPageState extends State<RecommendPage> {
                         ),
                       ),
                       const SizedBox(height: 10),
-                      Text('${linkRekomendations[index]['description']}',
-                          style: HarakaFonts(context).regularInter(size: 12)),
                       const Spacer(),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,

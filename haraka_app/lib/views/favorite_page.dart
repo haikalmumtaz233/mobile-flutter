@@ -90,8 +90,6 @@ class _FavoritePageState extends State<FavoritePage> {
                           ),
                         ),
                         const SizedBox(height: 10),
-                        Text('${data[index]['description']}',
-                            style: HarakaFonts(context).regularInter(size: 12)),
                         const Spacer(),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
